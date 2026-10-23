@@ -198,7 +198,7 @@ build_graph <- function(graph_data,
                         idtype_anno,
                         data_source = c(
                           "stringdb", "hint", "funcoup", "iid", "irefindex", "mint",
-                          "genemania", "huri", "stringdb",
+                          "genemania", "huri", "matrixdb",
                           "pathwaycommons", "reactome", "innatedb", "biogrid", "intact"
                         ),
                         output_format = "igraph",
