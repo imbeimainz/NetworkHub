@@ -9,7 +9,7 @@ build_graph(
   anno_df,
   idtype_anno,
   data_source = c("stringdb", "hint", "funcoup", "iid", "irefindex", "mint", "genemania",
-    "huri", "stringdb", "pathwaycommons", "reactome", "innatedb", "biogrid", "intact"),
+    "huri", "matrixdb", "pathwaycommons", "reactome", "innatedb", "biogrid", "intact"),
   output_format = "igraph",
   min_score_threshold = NULL,
   add_info_nodes = TRUE
