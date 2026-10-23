@@ -96,21 +96,25 @@ import(org.Ss.eg.db)
 import(org.Xl.eg.db)
 import(visNetwork)
 importFrom(AnnotationDbi,mapIds)
-importFrom(BiocFileCache,BiocFileCache)
-importFrom(BiocFileCache,bfcadd)
-importFrom(BiocFileCache,bfccount)
-importFrom(BiocFileCache,bfcdownload)
-importFrom(BiocFileCache,bfcneedsupdate)
-importFrom(BiocFileCache,bfcquery)
-importFrom(BiocFileCache,bfcrpath)
+importFrom(BiocFileCache,
+  BiocFileCache,
+  bfcadd,
+  bfccount,
+  bfcdownload,
+  bfcneedsupdate,
+  bfcquery,
+  bfcrpath
+)
 importFrom(RColorBrewer,brewer.pal)
 importFrom(SummarizedExperiment,rowData)
 importFrom(grDevices,colorRampPalette)
 importFrom(graphics,hist)
-importFrom(igraph,V)
-importFrom(igraph,graph.data.frame)
-importFrom(igraph,set_vertex_attr)
-importFrom(igraph,simplify)
+importFrom(igraph,
+  V,
+  graph.data.frame,
+  set_vertex_attr,
+  simplify
+)
 importFrom(mosdef,map_to_color)
 importFrom(scales,alpha)
 importFrom(stats,na.omit)
